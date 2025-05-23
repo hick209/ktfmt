@@ -32,6 +32,8 @@ nexusPublishing {
       nexusUrl = uri("https://oss.sonatype.org/service/local/staging/deploy/maven2/")
       snapshotRepositoryUrl = uri("https://oss.sonatype.org/content/repositories/snapshots/")
 
+      // stagingProfileId.set("release")
+
       username = System.getenv("OSSRH_USERNAME")
       password = System.getenv("OSSRH_PASSWORD")
     }
